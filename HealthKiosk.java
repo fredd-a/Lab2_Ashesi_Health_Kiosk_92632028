@@ -128,6 +128,8 @@ public class HealthKiosk{
 
         System.out.printf("TRIAGE| ID= %s | BMI = %.1f | CODE = %s",studentID, roundedBmiValue, displayCode);
 
+        input.close();
+
 
 
     }
